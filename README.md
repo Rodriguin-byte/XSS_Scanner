@@ -26,9 +26,9 @@ Syntax:
 python xss_scanner.py <TARGET_URL>
 
 Example:
-
 python xss_scanner.py http://example.com
-HOW IT WORKS
+
+## HOW IT WORKS
 Connectivity Test: The script first attempts to establish a connection with the target to ensure it is reachable.
 
 Form Discovery: It parses the HTML content using BeautifulSoup to identify all <form> elements, their methods (GET/POST), and input fields.
